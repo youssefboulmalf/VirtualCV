@@ -1,0 +1,25 @@
+.header{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+.headerText{
+    z-index: 10;
+    width: 60%;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.blob{
+    z-index: 0;
+    margin: 0;
+}
+.headTitle{
+    font-size: 50px;
+    font-weight: bold;
+}
+.headText{
+    color: gray;
+    font-size: 19px;
+}

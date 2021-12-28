@@ -1,0 +1,22 @@
+.root{
+    display: flex;
+    align-items: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+@media (min-width: 1340px){
+    .content{
+    max-width: 1260px;}
+}
+@media (min-width: 780px){
+    .content{
+    width: 90%;
+    }
+}

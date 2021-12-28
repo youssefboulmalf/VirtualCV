@@ -1,0 +1,44 @@
+.topBar{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    justify-content: space-evenly;
+    min-height: 70px;
+    align-items: center;
+}
+
+.navButton{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0 30px;
+}
+.navButton:hover{
+    color: gray;
+}
+
+.socialButtons{
+    height: 24px
+}
+.socialButton{
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    margin: 0 30px;
+}
+.socialButton > svg{
+    height: 24px;
+    width: 24px;
+    fill: white;
+}
+.socialButton > svg path{
+    fill: white;
+}
+.socialButton:hover svg path{
+    fill: gray;
+}
+
+
