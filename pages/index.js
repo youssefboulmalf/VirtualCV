@@ -2,8 +2,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../src/Components/Header/Header'
 import Page from '../src/Components/Page/Page'
+import Project from '../src/Components/Project/Project'
+import ProjectSection from '../src/Components/ProjectsSection/ProjectsSection'
 import TopBar from '../src/Components/TopBar/TopBar'
 import css from '../styles/Home.module.css'
+import url from '../src/img/Djamin.png'
 
 export default function Home() {
   return (
@@ -19,6 +22,17 @@ export default function Home() {
         <TopBar />
         <Page>
           <Header/>
+          <ProjectSection>
+            <Project
+            projectImage={image}
+            />
+            <div>project1</div>
+            <div>project1</div>
+            <div>project1</div>
+            <div>project1</div>
+            <div>project1</div>
+          </ProjectSection>
+
         </Page>
       </div>
     </div>
