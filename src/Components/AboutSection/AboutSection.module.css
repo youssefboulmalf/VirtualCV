@@ -1,0 +1,19 @@
+.aboutSection{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.aboutSectionText{
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+}
+.aboutTitle{
+    font-size: 33px;
+    font-weight: bold;
+}
+.aboutText{
+    color: gray;
+    font-size: 15px;
+}

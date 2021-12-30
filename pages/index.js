@@ -6,6 +6,7 @@ import ProjectSection from '../src/Components/ProjectsSection/ProjectsSection'
 import TopBar from '../src/Components/TopBar/TopBar'
 import css from '../styles/Home.module.css'
 import SkillsSection from '../src/Components/SkillsSection/SkillsSection'
+import AboutSection from '../src/Components/AboutSection/AboutSection'
 
 export default function Home() {
 
@@ -25,6 +26,7 @@ export default function Home() {
           <Header />
           <ProjectSection />
           <SkillsSection/>
+          <AboutSection/>
         </Page>
       </div>
     </div>

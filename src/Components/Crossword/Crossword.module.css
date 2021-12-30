@@ -1,0 +1,76 @@
+
+.crossWord{
+    position: relative;
+}
+.letterGrid{
+    display: grid;
+    grid-template-columns: repeat(18, 10px);
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    justify-items: center;
+    color: white;
+}
+.outline1{
+    position: absolute;
+    height: 300px;
+    width: 22px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 15px;
+    transform: rotate(-32deg);
+    top: 5px;
+    left: 66px;
+}
+.outline2{
+    position: absolute;
+    height: 239px;
+    width: 22px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 15px;
+    top: 81px;
+    left: 157px;
+}
+.outline3{
+    position: absolute;
+    height: 176px;
+    width: 22px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 15px;
+    transform: rotate(-90deg);
+    top: -19.5px;
+    left: 122px;
+}
+.outline4{
+    position: absolute;
+    height: 176px;
+    width: 22px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 15px;
+    transform: rotate(-90deg);
+    top: 39px;
+    left: 194px;
+}
+.outline5{
+    position: absolute;
+    height: 154px;
+    width: 22px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 15px;
+    transform: rotate(-90deg);
+    top: 254px;
+    left: 149px;
+}
+.visible {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 2s linear;
+}
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
+  }

@@ -55,6 +55,11 @@ export const skills = [
         skillLevel: 75,
     },
     {
+        skillName: "Git",
+        skillType: "other",
+        skillLevel: 70,
+    },
+    {
         skillName: "Linux",
         skillType: "other",
         skillLevel: 50,
