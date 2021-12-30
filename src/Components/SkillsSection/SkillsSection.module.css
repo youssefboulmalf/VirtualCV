@@ -8,9 +8,27 @@
     font-weight: bold;
 }
 .skills{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.skillsTitle{
+    font-family: 'Space Grotesk', sans-serif;
+    color: gray;
+    font-size: 25px;
+    margin: 40px auto 0px 20px;
+    border-bottom-style: solid;
+    border-bottom-color: #e63918;
+}
+.skillsTitle > p{
+    margin: 2px;
+}
+.skillsContainer{
     display: grid;
     grid-template-columns: repeat(3, 300px);
     grid-column-gap: 40px;
     grid-row-gap: 40px;
     justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
