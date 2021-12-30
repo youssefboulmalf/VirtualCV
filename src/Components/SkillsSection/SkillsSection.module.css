@@ -1,0 +1,16 @@
+.skillsSection{
+    margin: 60px 60px;
+}
+.skillsTitleText{
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+}
+.skills{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    justify-content: center;
+}

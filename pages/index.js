@@ -2,13 +2,16 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../src/Components/Header/Header'
 import Page from '../src/Components/Page/Page'
-import Project from '../src/Components/Project/Project'
 import ProjectSection from '../src/Components/ProjectsSection/ProjectsSection'
 import TopBar from '../src/Components/TopBar/TopBar'
 import css from '../styles/Home.module.css'
-import url from '../src/img/Djamin.png'
+import img from '../src/img/djammin.jpg'
+import SkillsSection from '../src/Components/SkillsSection/SkillsSection'
+import Skill from '../src/Skill/Skill'
 
 export default function Home() {
+
+
   return (
     <div className={css.container}>
       <Head>
@@ -21,17 +24,46 @@ export default function Home() {
       <div className={css.main}>
         <TopBar />
         <Page>
-          <Header/>
-          <ProjectSection>
-            <Project
-            projectImage={image}
+          <Header />
+          <ProjectSection />
+          <SkillsSection>
+            <Skill
+              skillName={"Javascrtipt"}
+              skillLevel={80}
             />
-            <div>project1</div>
-            <div>project1</div>
-            <div>project1</div>
-            <div>project1</div>
-            <div>project1</div>
-          </ProjectSection>
+            <Skill
+              skillName={"SQL"}
+              skillLevel={35}
+            />
+            <Skill
+              skillName={"Adgile workflow"}
+              skillLevel={75}
+            />
+            <Skill
+              skillName={"NodeJs"}
+              skillLevel={65}
+            />
+            <Skill
+              skillName={"Redux"}
+              skillLevel={55}
+            />
+            <Skill
+              skillName={"React"}
+              skillLevel={70}
+            />
+            <Skill
+              skillName={"Python"}
+              skillLevel={40}
+            />
+            <Skill
+              skillName={"HTML"}
+              skillLevel={80}
+            />
+            <Skill
+              skillName={"CSS"}
+              skillLevel={65}
+            />
+          </SkillsSection>
 
         </Page>
       </div>
