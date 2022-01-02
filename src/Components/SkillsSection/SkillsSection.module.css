@@ -35,6 +35,15 @@
     font-size: 25px;
     margin: 40px auto 0px 20px;
 }
+.skillsTitle:hover{
+  cursor: pointer;
+  color: darkgray;
+
+}
+.skillsTitle:hover > svg >path{
+  fill: darkgray;
+  
+}
 .skillsTitle > p{
     margin: 2px;
     margin-right: 10px;

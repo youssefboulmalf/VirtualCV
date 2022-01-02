@@ -1,4 +1,4 @@
-import React,{ useRef } from 'react'
+import React from 'react'
 import Head from 'next/head'
 import { Element } from 'react-scroll'
 import Header from '../src/Components/Header/Header'
@@ -10,8 +10,6 @@ import SkillsSection from '../src/Components/SkillsSection/SkillsSection'
 import AboutSection from '../src/Components/AboutSection/AboutSection'
 
 export default function Home() {
-
-
 
   return (
     <div className={css.container}>
