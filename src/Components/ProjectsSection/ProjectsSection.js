@@ -4,7 +4,6 @@ import { projects } from '../../ProjectData/projectData';
 
 
 const ProjectSection = (props) => {
-    console.log(projects);
     return (
         <div className={css.projectSection}>
             <div className={css.projectTitleText}>

@@ -18,6 +18,7 @@
 }
 .navButton:hover{
     color: gray;
+    cursor: pointer;
 }
 
 .socialButtons{
@@ -33,6 +34,7 @@
     height: 24px;
     width: 24px;
     fill: white;
+    cursor: pointer;
 }
 .socialButton > svg path{
     fill: white;

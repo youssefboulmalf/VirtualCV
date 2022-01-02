@@ -3,8 +3,8 @@
     flex-direction: row;
     justify-content: center;
     background-color: #000e14;
-    min-height: 400px;
-    min-width: 250px;
+    height: 300px;
+    width: 210px;
     border-radius: 15px;
     color: white;
 }
@@ -13,26 +13,28 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 50%;
+    width: 40%;
 }
 .skillBar{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     justify-content: center;
     align-items: center;
 }
 .skillName{
     font-weight: 500;
     color: gray;
+    font-size: 14px;
+    text-align: center;
 }
 .bar{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     margin-top: 60px;
-    width: 100px;
-    height: 300px;
+    width: 30px;
+    height: 200px;
     background-color: gray;
     border-radius: 10px;
     transform: scale(1.005);

@@ -1,3 +1,15 @@
+@keyframes rotateMenu {
+    0% {
+      transform: rotateX(-90deg)
+    }
+    70% {
+      transform: rotateX(20deg)
+    }
+    100% {
+      transform: rotateX(0deg)
+    }
+  }
+
 .skillsSection{
     margin: 60px 60px;
 }
@@ -13,22 +25,38 @@
     flex-direction: column;
 }
 .skillsTitle{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     font-family: 'Space Grotesk', sans-serif;
     color: gray;
     font-size: 25px;
     margin: 40px auto 0px 20px;
-    border-bottom-style: solid;
-    border-bottom-color: #e63918;
 }
 .skillsTitle > p{
     margin: 2px;
+    margin-right: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: #e63918;
 }
-.skillsContainer{
+.skillsContainerOpen{
     display: grid;
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(4, 200px);
     grid-column-gap: 40px;
     grid-row-gap: 40px;
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 30px;
+    animation: rotateMenu 300ms ease-in-out forwards
+
 }
+.skillsContainerClosed{
+    display: block;
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+
