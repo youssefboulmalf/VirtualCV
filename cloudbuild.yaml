@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'grc.io/sound-habitat-325317/virtualcv:$SHORT_SHA', '.']
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'grc.io/sound-habitat-325317/virtualcv:$SHORT_SHA']
