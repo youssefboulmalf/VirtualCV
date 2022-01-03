@@ -100,6 +100,7 @@ const TopBar = (props) => {
     )
 
     const navigation = windowSize.width < 800 ? mobileNavBar : desktopNav;
+    console.log(windowSize.width)
 
     return (
         <div>

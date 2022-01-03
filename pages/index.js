@@ -18,6 +18,7 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet" />
         <meta name="virtual porfolio" content="virtual porfolio by Youssef Boulmaf" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={css.main}>

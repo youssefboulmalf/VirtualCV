@@ -1,5 +1,7 @@
 .projectSection{
-    margin: 60px 60px;
+    flex-direction: column;
+    max-width: 300px;
+    margin-top: 80px;
 }
 .projectTitleText{
     color: white;
@@ -9,9 +11,7 @@
 }
 .projects{
     display: grid;
-    grid-template-columns: repeat(2, 370px);
-    grid-column-gap: 40px;
-    grid-row-gap: 40px;
+    grid-template-columns: repeat(1, 370px);
     justify-content: center;
 }
 
@@ -39,4 +39,34 @@
 .project:hover{
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
+}
+
+@media (min-width: 1340px){
+    .projectSection{
+    margin: 60px 60px;
+    max-width: 1260px;
+    flex-direction: row;
+    }
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(2, 370px);
+        grid-column-gap: 40px;
+        grid-row-gap: 40px;
+        justify-content: center;
+    }
+}
+@media (min-width: 780px){
+    .projectSection{
+        margin: 60px 60px;
+        width: 90%;
+        flex-direction: row;
+        max-width: 1260px;
+    }
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(2, 370px);
+        grid-column-gap: 40px;
+        grid-row-gap: 40px;
+        justify-content: center;
+    }
 }
