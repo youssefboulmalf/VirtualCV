@@ -72,10 +72,11 @@
     height: 0;
     display: none;
 }
-@media (min-width: 1340px){
+@media (min-width: 1040px){
   .skillsSection{
     margin: 60px 60px;
     max-width: 1500px;
+    align-items: baseline;
 }
 .skillsContainerOpen{
   display: grid;
@@ -92,10 +93,12 @@
 @media (min-width: 780px){
   .skillsSection{
     margin: 60px 60px;
+    max-width: 700px;
+    align-items: baseline;
 }
 .skillsContainerOpen{
   display: grid;
-  grid-template-columns: repeat(4, 200px);
+  grid-template-columns: repeat(3, 200px);
   grid-column-gap: 40px;
   grid-row-gap: 40px;
   justify-content: center;

@@ -8,6 +8,7 @@ import TopBar from '../src/Components/TopBar/TopBar'
 import css from '../styles/Home.module.css'
 import SkillsSection from '../src/Components/SkillsSection/SkillsSection'
 import AboutSection from '../src/Components/AboutSection/AboutSection'
+import Footer from '../src/Components/Footer/Foorter'
 
 export default function Home() {
 
@@ -29,6 +30,7 @@ export default function Home() {
           <Element id="about"><AboutSection/></Element>
           <Element id="skills"><SkillsSection/></Element>
         </Page>
+        <Footer/>
       </div>
     </div>
   )
