@@ -25,20 +25,6 @@
     height: 250px;
     border-radius: 400px;
 }
-
-@media (min-width: 1340px){
-    .aboutSection{
-    margin: 70px 60px 0 60px;
-    max-width: 1260px;
-    flex-direction: row;
-    }
-    .aboutSectionText{
-        color: white;
-        font-family: 'Space Grotesk', sans-serif;
-        font-weight: bold;
-        margin-right: 300px;
-    }
-}
 @media (min-width: 780px){
     .aboutSection{
     max-width: 1260px;
@@ -49,5 +35,19 @@
         color: white;
         font-family: 'Space Grotesk', sans-serif;
         font-weight: bold;
+    }
+}
+
+@media (min-width: 1040px){
+    .aboutSection{
+    margin: 70px 60px 0 60px;
+    max-width: 1260px;
+    flex-direction: row;
+    }
+    .aboutSectionText{
+        color: white;
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: bold;
+        margin-right: 300px;
     }
 }

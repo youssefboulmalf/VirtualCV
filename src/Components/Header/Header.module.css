@@ -25,22 +25,6 @@
     color: gray;
     font-size: 17px;
 }
-@media (min-width: 1340px){
-    .header{
-    max-width: 1260px;
-    flex-direction: row;
-    }
-    .headTitle{
-        font-size: 50px;
-        font-weight: bold;
-    }
-    .headText{
-        color: gray;
-        font-size: 19px;
-    }
-    
-    
-}
 @media (min-width: 780px){
     .header{
     width: 90%;
@@ -54,5 +38,21 @@
         color: gray;
         font-size: 19px;
     }
+    
+}
+@media (min-width: 1040px){
+    .header{
+    max-width: 1260px;
+    flex-direction: row;
+    }
+    .headTitle{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .headText{
+        color: gray;
+        font-size: 19px;
+    }
+    
     
 }
