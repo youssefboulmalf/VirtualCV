@@ -88,7 +88,7 @@ const TopBar = (props) => {
                     to="skills"
                     spy={true}
                     smooth={true}
-                    duration={500}>skills</Link>
+                    duration={500}>Skills</Link>
             </nav>
             <div className={css.socialButtonsMobile}>
                 <a className={css.socialButtonMobile} href='https://github.com/youssefboulmalf'><BsGithub /></a>

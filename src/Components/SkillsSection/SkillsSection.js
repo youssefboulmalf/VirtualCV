@@ -31,7 +31,7 @@ const SkillsSection = (props) => {
                         </div>
                     )}
                 </div>
-                <button onClick={()=> setLibraryOpen(!libraryOpen)} className={css.skillsTitle}><p>Library's</p><AiFillCaretDown /></button>
+                <button onClick={()=> setLibraryOpen(!libraryOpen)} className={css.skillsTitle}><p>Libraries</p><AiFillCaretDown /></button>
                 <div className={libraryStyle}>
                     {skills.filter(f => f.skillType == "library").map(child =>
                         <div key={child.skillName} className={css.skill}>
