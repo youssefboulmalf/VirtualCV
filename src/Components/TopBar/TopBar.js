@@ -55,7 +55,7 @@ const TopBar = (props) => {
                     to="skills"
                     spy={true}
                     smooth={true}
-                    duration={500}>skills</Link>
+                    duration={500}>Skills</Link>
             </nav>
             <div className={css.socialButtons}>
                 <a className={css.socialButton} href='https://github.com/youssefboulmalf'><BsGithub /></a>
@@ -100,7 +100,6 @@ const TopBar = (props) => {
     )
 
     const navigation = windowSize.width < 800 ? mobileNavBar : desktopNav;
-    console.log(windowSize.width)
 
     return (
         <div>

@@ -17,7 +17,7 @@ export const AboutSection = (props) => {
             <div className={css.aboutSectionText}>
                 <h1 className={css.aboutTitle}>About me</h1>
                 <img className={css.image} src={img.src}/>
-                <p className={css.aboutText}>{breaklineDescription(aboutMessage)}</p>
+                <div className={css.aboutText}>{breaklineDescription(aboutMessage)}</div>
             </div>
             <div className={css.crossWord}>
                 <Crossword />

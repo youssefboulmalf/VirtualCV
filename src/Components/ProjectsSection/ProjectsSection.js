@@ -10,8 +10,8 @@ const ProjectSection = (props) => {
                 <p>Projects</p>
             </div>
             <div className={css.projects}>
-                {projects.map(project =>
-                    <div key={projects.name} className={css.project}>
+                {projects.map((project, index) =>
+                    <div key={`${projects}+${index}`} className={css.project}>
                         <Project
                             projectName={project.name}
                             projectDescription={project.description}

@@ -23,8 +23,8 @@ class Header extends Component {
         return (
             <div className={css.header}>
                 <div className={css.headerText}>
-                    <h1 className={css.headTitle}>Welcome to my Virtual Porfolio</h1>
-                    <p className={css.headText}>The perpose of this Virtual Porfolio is to introduce myself and to demonstrate my develop skills.</p>
+                    <h1 className={css.headTitle}>Welcome to my virtual porfolio</h1>
+                    <p className={css.headText}>The perpose of this Virtual Porfolio is to introduce myself and to demonstrate my development skills.</p>
                 </div>
                 <div className={css.blob}>
                 <svg id="visual" viewBox="0 0 400 400" width="400" height="400" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1">

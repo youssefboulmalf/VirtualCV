@@ -34,9 +34,9 @@ const Project = (props) => {
                         {description}
                     </div>
                     <div className={css.languages}>
-                        {languages.map(language =>
-                            <div key={language} className={css.language}>
-                                <p>{language}</p>
+                        {languages.map((language, index) =>
+                            <div key={`${language}`+`${index}`} className={css.language}>
+                                {language}
                             </div>
                         )}
                     </div>
