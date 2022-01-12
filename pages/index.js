@@ -9,6 +9,7 @@ import css from '../styles/Home.module.css'
 import SkillsSection from '../src/Components/SkillsSection/SkillsSection'
 import AboutSection from '../src/Components/AboutSection/AboutSection'
 import Footer from '../src/Components/Footer/Foorter'
+import blob from '../src/img/blob.png'
 
 
 export default function Home() {
@@ -22,6 +23,9 @@ export default function Home() {
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
+        <meta property="og:title" content="Virtual Portfolio" />
+        <meta property="og:description" content="A virtual portfolio by Youssef Boulmalf"/>
+        <meta property="og:image" content={blob.src} />
         <meta name="virtual porfolio" content="virtual porfolio by Youssef Boulmaf" />
         <meta name="viewport" content="width=device-width, minimum-scale=1"></meta>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-75EDL53ZS4"></script>
