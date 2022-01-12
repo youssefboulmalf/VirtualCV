@@ -58,7 +58,7 @@
 }
 .skillsContainerOpen{
     display: grid;
-    grid-template-columns: repeat(2, 110px);
+    grid-template-columns: repeat(1, 200px);
     grid-column-gap: 5px;
     grid-row-gap: 5px;
     justify-content: center;
@@ -81,7 +81,7 @@
   .skillsContainerOpen{
     display: grid;
     grid-template-columns: repeat(3, 200px);
-    grid-column-gap: 10px;
+    grid-column-gap: 40px;
     grid-row-gap: 40px;
     justify-content: center;
     margin-top: 30px;
@@ -99,7 +99,7 @@
 .skillsContainerOpen{
   display: grid;
   grid-template-columns: repeat(4, 200px);
-  grid-column-gap: 10px;
+  grid-column-gap: 40px;
   grid-row-gap: 40px;
   justify-content: center;
   margin-top: 30px;
