@@ -58,7 +58,7 @@
 }
 .skillsContainerOpen{
     display: grid;
-    grid-template-columns: repeat(3, 110px);
+    grid-template-columns: repeat(2, 110px);
     grid-column-gap: 5px;
     grid-row-gap: 5px;
     justify-content: center;

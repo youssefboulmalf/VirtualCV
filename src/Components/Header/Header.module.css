@@ -16,6 +16,7 @@
 .blob{
     z-index: 0;
     margin: 0;
+    max-width: 350px;
 }
 .headTitle{
     font-size: 30px;
