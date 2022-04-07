@@ -14,7 +14,7 @@ const Project = (props) => {
     const image = projectImage ? require(`../../img/${projectImage}`).default.src : null;
 
     function breaklineDescription(description) {
-        const newText = description.split('\n').map(str => <p>{str}</p>);
+        const newText = description.split('\n').map((str,index) => <p key={index}>{str}</p>);
         return newText;
       }
 

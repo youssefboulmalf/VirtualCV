@@ -6,7 +6,7 @@ import { AiFillCaretDown } from 'react-icons/ai'
 
 const SkillsSection = (props) => {
 
-    const [languageOpen, setLanguageOpen] = useState(true);
+    const [languageOpen, setLanguageOpen] = useState(false);
     const [libraryOpen, setLibraryOpen] = useState(false);
     const [otherOpen, setOtherOpen] = useState(false);
 
@@ -22,8 +22,8 @@ const SkillsSection = (props) => {
             <div className={css.skills}>
                 <button onClick={()=> setLanguageOpen(!languageOpen)} className={css.skillsTitle}><p>language</p><AiFillCaretDown /></button>
                 <div className={languageStyle}>
-                    {skills.filter(f => f.skillType == "language").map(child =>
-                        <div key={child.skillName} className={css.skill}>
+                    {skills.filter(f => f.skillType == "language").map((child,index) =>
+                        <div key={`${child.skillName + index}`} className={css.skill}>
                             <Skill
                                 skillName={child.skillName}
                                 skillLevel={child.skillLevel}
@@ -33,8 +33,8 @@ const SkillsSection = (props) => {
                 </div>
                 <button onClick={()=> setLibraryOpen(!libraryOpen)} className={css.skillsTitle}><p>Libraries</p><AiFillCaretDown /></button>
                 <div className={libraryStyle}>
-                    {skills.filter(f => f.skillType == "library").map(child =>
-                        <div key={child.skillName} className={css.skill}>
+                    {skills.filter(f => f.skillType == "library").map((child,index) =>
+                        <div key={`${child.skillName + index}`} className={css.skill}>
                             <Skill
                                 skillName={child.skillName}
                                 skillLevel={child.skillLevel}
@@ -44,8 +44,8 @@ const SkillsSection = (props) => {
                 </div>
                 <button onClick={()=> setOtherOpen(!otherOpen)} className={css.skillsTitle}><p>Other</p><AiFillCaretDown /></button>
                 <div className={otherStyle}>
-                    {skills.filter(f => f.skillType == "other").map(child =>
-                        <div key={child.skillName} className={css.skill}>
+                    {skills.filter(f => f.skillType == "other").map((child,index) =>
+                        <div key={`${child.skillName + index}`} className={css.skill}>
                             <Skill
                                 skillName={child.skillName}
                                 skillLevel={child.skillLevel}

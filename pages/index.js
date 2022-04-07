@@ -8,6 +8,8 @@ import TopBar from '../src/Components/TopBar/TopBar'
 import css from '../styles/Home.module.css'
 import SkillsSection from '../src/Components/SkillsSection/SkillsSection'
 import AboutSection from '../src/Components/AboutSection/AboutSection'
+import ContactSection from '../src/Components/ContactSection/ContactSection'
+
 import Footer from '../src/Components/Footer/Foorter'
 import blob from '../src/img/blob.png'
 
@@ -48,6 +50,7 @@ export default function Home() {
           <Element id="projects"><ProjectSection /></Element>
           <Element id="about"><AboutSection /></Element>
           <Element id="skills"><SkillsSection /></Element>
+          <Element id="Contact"><ContactSection /></Element>
         </Page>
         <Footer />
       </div>

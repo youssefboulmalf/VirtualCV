@@ -42,11 +42,6 @@ export const skills = [
     {
         skillName: "NodeJs",
         skillType: "library",
-        skillLevel: 55,
-    },
-    {
-        skillName: "NodeJs",
-        skillType: "library",
         skillLevel: 65,
     },
     {
