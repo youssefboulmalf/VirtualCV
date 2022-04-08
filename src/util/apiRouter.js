@@ -1,10 +1,17 @@
+const post = (endPoint, body) =>{
+  return fetch(endPoint, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(body),
+  })
+}
+
+
+
+
 export const sendMail = body => {
-    return fetch('/api/sendMail', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(body),
-    })
+  return post('/api/sendMail', body)
   };
   

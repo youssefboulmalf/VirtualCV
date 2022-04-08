@@ -3,6 +3,7 @@ import css from './ContactForm.module.css';
 import TextInput from './TextInput';
 import TextArea from './TextArea';
 import { sendMail } from '../../util/apiRouter';
+import IconSpinner from './IconSpinner/IconSpinner';
 
 export class ContactForm extends Component {
   constructor() {
@@ -29,6 +30,7 @@ export class ContactForm extends Component {
         focus: false,
         errorMessage: ""
       },
+      inProgress: false,
       hasSubmitted: false,
       submitError: null
     };
@@ -112,13 +114,13 @@ export class ContactForm extends Component {
       const email = this.state.email.value;
       const message = this.state.message.value;
       const payload = {name: name, email: email, message:message}
-
+      this.setState({inProgress: true})
       sendMail({payload:payload})
       .then(r=>{
-        this.setState({hasSubmitted: true})
+        this.setState({hasSubmitted: true, inProgress: false})
       })
       .catch(e=>{
-        this.setState({submitError: e, hasSubmitted: true})
+        this.setState({submitError: e, hasSubmitted: true, inProgress: false})
       })
   };
 
@@ -150,7 +152,7 @@ export class ContactForm extends Component {
           onBlur={this.handleBlur}
           onChange={this.handleChange}
         />
-        <input className={buttonStyle} disabled={disabled} type="submit" value="Send" />
+        <button className={buttonStyle} disabled={disabled} type="submit">{this.state.inProgress? <IconSpinner/> :"Send" }</button>
       </form>:<div className={css.finalForm}>
       {this.state.submitError?(<div className={css.bigErrorMessage}>{this.state.submitError}</div>):(<div className={css.succesMessage}>Thanks you, I will get back you as soon as I can</div>)}
         </div>}
