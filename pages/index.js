@@ -27,7 +27,7 @@ export default function Home() {
         <link rel="manifest" href="/site.webmanifest" />
         <meta property="og:title" content="Virtual Portfolio" />
         <meta property="og:description" content="A virtual portfolio by Youssef Boulmalf"/>
-        <meta property="og:image" content={blob} />
+        <meta property="og:image" content="https://youssefboulmalf.nl/_next/static/media/blob.b6977dc5.png"/>
         <meta property="og:image:type" content="image/png"/>
         <meta property="og:image:width" content="1024"/>
         <meta property="og:image:height" content="1024"/>
