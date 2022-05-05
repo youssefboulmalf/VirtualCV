@@ -27,7 +27,10 @@ export default function Home() {
         <link rel="manifest" href="/site.webmanifest" />
         <meta property="og:title" content="Virtual Portfolio" />
         <meta property="og:description" content="A virtual portfolio by Youssef Boulmalf"/>
-        <meta property="og:image" content={blob.src} />
+        <meta property="og:image" content={blob} />
+        <meta property="og:image:type" content="image/png"/>
+        <meta property="og:image:width" content="1024"/>
+        <meta property="og:image:height" content="1024"/>
         <meta name="virtual porfolio" content="virtual porfolio by Youssef Boulmaf" />
         <meta name="viewport" content="width=device-width, minimum-scale=1"></meta>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-75EDL53ZS4"></script>
