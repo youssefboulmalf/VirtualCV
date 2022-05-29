@@ -8,5 +8,14 @@ export const projects = [
         ],
         link: "https://djamm.in/",
         imageName: "djammin.jpg"
+    },
+    {
+        name: "Babier stack overflow write-up",
+        description: `This wirte-up is for the Nahamcon 2022 "Babiersteps" 64bit ELF stack overflow challange.`,
+        language: [
+            "Linux", "Stack Overflow", "Binary exploitation",
+        ],
+        link: "https://github.com/youssefboulmalf/NahamCon-Babier-write-up",
+        imageName: "wu.jpg"
     }
 ]

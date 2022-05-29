@@ -15,7 +15,7 @@ export const ContactSection = (props) => {
                 </div>
                 <div className={css.info}>
                     <h2 className={css.phoneNumber}>+(31)625202173</h2>
-                    <h2>
+                    <h2 className={css.email}>
                         youssefboulmalf@gmail.com
                     </h2>
                 </div>
