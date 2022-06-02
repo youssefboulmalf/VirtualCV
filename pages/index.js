@@ -9,8 +9,6 @@ import css from '../styles/Home.module.css'
 import SkillsSection from '../src/Components/SkillsSection/SkillsSection'
 import AboutSection from '../src/Components/AboutSection/AboutSection'
 import ContactSection from '../src/Components/ContactSection/ContactSection'
-import blob from '../src/img/blob.png'
-
 import Footer from '../src/Components/Footer/Foorter'
 
 
@@ -28,7 +26,6 @@ export default function Home() {
         <link rel="manifest" href="/site.webmanifest" />
         <meta property="og:title" content="Virtual Portfolio" />
         <meta property="og:description" content="A virtual portfolio by Youssef Boulmalf"/>
-        <meta property="og:image" content={blob.src} />
         <meta name="virtual porfolio" content="virtual porfolio by Youssef Boulmaf" />
         <meta name="viewport" content="width=device-width, minimum-scale=1"></meta>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-75EDL53ZS4"></script>
