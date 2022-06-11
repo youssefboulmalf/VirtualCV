@@ -11,7 +11,6 @@ import AboutSection from '../src/Components/AboutSection/AboutSection'
 import ContactSection from '../src/Components/ContactSection/ContactSection'
 
 import Footer from '../src/Components/Footer/Foorter'
-import blob from '../src/img/blob.png'
 
 
 export default function Home() {
