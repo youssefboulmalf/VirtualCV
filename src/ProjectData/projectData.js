@@ -10,6 +10,15 @@ export const projects = [
         imageName: "djammin.jpg"
     },
     {
+        name: "PYRSA",
+        description: `PYRSA is a rsa key encryption tool that lets the user create rsa key pairs, encrypt messages, decrpyt messages and load in key pairs.`,
+        language: [
+            "Python", "RSA"
+        ],
+        link: "https://github.com/youssefboulmalf/PYRSA",
+        imageName: "pyrsa.jpg"
+    },
+    {
         name: "Babier stack overflow write-up",
         description: `This wirte-up is for the Nahamcon 2022 "Babiersteps" 64bit ELF stack overflow challange.`,
         language: [
@@ -27,13 +36,4 @@ export const projects = [
         link: "https://github.com/youssefboulmalf/The_markerplace_writeup",
         imageName: "marketplace.png"
     },
-    {
-        name: "PYRSA",
-        description: `PYRSA is a rsa key encryption tool that lets the user create rsa key pairs, encrypt messages, decrpyt messages and load in key pairs.`,
-        language: [
-            "Python", "RSA"
-        ],
-        link: "https://github.com/youssefboulmalf/PYRSA",
-        imageName: "pyrsa.jpg"
-    }
 ]
