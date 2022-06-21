@@ -19,6 +19,15 @@ export const projects = [
         imageName: "pyrsa.jpg"
     },
     {
+        name: "PYCHAT",
+        description: `PYCHAT lets you chat with other users connected to the PYCHAT server using an ecrypted websocket data stream between client and server.`,
+        language: [
+            "Python", "Websockets" , "Tkinter","RSA"
+        ],
+        link: "https://github.com/youssefboulmalf/PYCHAT",
+        imageName: "pychat.jpg"
+    },
+    {
         name: "Babier stack overflow write-up",
         description: `This wirte-up is for the Nahamcon 2022 "Babiersteps" 64bit ELF stack overflow challange.`,
         language: [
@@ -36,4 +45,5 @@ export const projects = [
         link: "https://github.com/youssefboulmalf/The_markerplace_writeup",
         imageName: "marketplace.png"
     },
+    
 ]
